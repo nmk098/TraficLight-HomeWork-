@@ -40,7 +40,7 @@ class ViewController: UIViewController {
     }
     
    private func changeAlpha() {
-        if tappCount == 1 {
+       if tappCount == 1 {
             redView.alpha = 1
             greenView.alpha = 0.30
         } else if tappCount == 2 {
@@ -62,14 +62,8 @@ class ViewController: UIViewController {
         
         buttonConfiguration.baseBackgroundColor = #colorLiteral(red: 0.3333333433, green: 0.3333333433, blue: 0.3333333433, alpha: 1)
         buttonConfiguration.title = title
-        buttonConfiguration.cornerStyle = .large
         buttonConfiguration.attributedTitle?.font = UIFont.systemFont(ofSize: 24, weight: .semibold)
         
         return buttonConfiguration
     }
-    
-    
-    
-    
-    
 }
