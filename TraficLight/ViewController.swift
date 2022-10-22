@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         redView.layer.cornerRadius = 90
         yellowView.layer.cornerRadius = 90
         greenView.layer.cornerRadius = 90
+        changeButton.layer.cornerRadius = 10
         
         redView.alpha = 0.30
         yellowView.alpha = 0.30
@@ -30,7 +31,7 @@ class ViewController: UIViewController {
         tappCount = 0
         
         changeButton.configuration = setupButton(with: "START")
-        changeButton.layer.cornerRadius = 10
+       
     }
     
     @IBAction func changeButtonTapped() {
